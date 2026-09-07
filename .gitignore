@@ -1,4 +1,10 @@
 # Python-generated files
+.env
+*.db
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
 __pycache__/
 *.py[oc]
 build/
