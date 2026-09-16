@@ -9,3 +9,7 @@ class UserResponse(BaseModel):
     
     email: EmailStr
     id: int 
+    
+class Token(BaseModel):
+    access_token: str
+    token_type: str
