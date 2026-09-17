@@ -31,3 +31,4 @@ class Account(Base):
     status: Mapped[AccountStatus] = mapped_column(SAEnum(AccountStatus), default=AccountStatus.ACTIVE)
     
     owner: Mapped[User] = relationship(back_populates="accounts")
+    
